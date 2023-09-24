@@ -106,6 +106,7 @@ if __name__ == "__main__":  # noqa: C901
     args = parser.parse_args()
 
     print(args)
+    print("ДАЛЕЕ")
 
     objfiles = args.objfiles
     if "*" in objfiles[0]:
